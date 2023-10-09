@@ -1,0 +1,71 @@
+name: newszone
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  google_fonts: ^3.0.1
+  dio: ^4.0.6
+  logger: ^1.1.0
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.7
+  flex_color_scheme: ^6.1.1
+  ionicons: ^0.2.1
+  flutter_launcher_icons: ^0.12.0
+
+dev_dependencies:
+  dependencies:
+  flutter_native_splash: ^2.1.0
+
+flutter_native_splash:
+  color_dark: '#000000'
+  color: '#00001a'
+  image_dark: assets/newszone.png
+  image: assets/newszone.png
+  android_gravity: center
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/newszone.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/newszone.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/newszone.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/newszone.png"
+  flutter_test:
+    sdk: flutter
+
+
+
+ 
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+assets:
+ -assets/
